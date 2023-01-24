@@ -1,0 +1,12 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box ;
+}
+/*comentarios propiedad:valor; */
+header{
+    background-color: aqua ;
+}
+.logo {
+    scale: 10;
+}
