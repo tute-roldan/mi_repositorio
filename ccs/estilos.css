@@ -1,12 +1,605 @@
 *{
-    padding: 0 ;
     margin: 0;
-    box-sizing: border-box ;
+    padding: 0;
+    box-sizing: border-box;
+
 }
-/*comentarios propiedad:valor; */
-header{
-    background-color: aqua ;
+
+/*........HEADER PROYECTO..........*/
+
+.esqueleto__universal{
+    display: grid;
+    grid-template-rows: auto 3fr 3fr 2fr auto;    
+          
+    gap: 10px 10px;
+
 }
-.logo {
-    scale: 10;
+
+
+
+
+/*.......................*/
+.header__universal_proyecto{
+    display: flex;
+    justify-content: end;
+    background-color: rgb(231, 193, 48);
+    padding-top: 30px;
+   
+    
 }
+
+
+.header__logo{
+    width: 8px;
+    height: 0px;
+    position: fixed;
+    top: 10px;
+    left: 1%;
+    bottom:0%;
+    right: 0%;
+    scale: 15%;
+}
+
+    
+.header__paginas{
+    
+    display: flex;
+    
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    
+    
+    
+  
+    
+    padding-bottom: 2rem;
+    font-size: 125%;
+    list-style: none;   
+}
+
+.header__paginas_a{
+    
+    
+    color: rgb(52, 53, 9);
+    
+    border-radius: 50px;
+    padding: 7px;
+    margin: 28px;
+    position: relative;  
+    border-style: groove;
+    border-color: rgb(236, 241, 241);    
+
+}
+
+a{
+    
+    text-decoration: none;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*.....FOOTER PROYECTO....*/
+
+
+footer{
+    background-color: rgb(231, 193, 48);
+}
+
+.footer__universal_proyecto{
+    display: flex;
+    padding: 35px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+
+.footer__text{
+
+    color:  rgb(43, 42, 40);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+    
+}
+
+
+.footer__logo{
+    width: 100px;
+    
+
+}
+.footer__iconoredes{
+    width: 100px;
+    
+
+}
+
+
+
+/*..................................*/
+
+
+/*BODY INICIO*/
+
+
+
+
+
+.main__sectionhero{
+    background-image: url(../img/fondo/black-concrete-wall.jpg);
+    padding: 55px;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+
+
+        
+      
+}
+
+
+.main__sectionhero_text1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(231, 221, 221);
+    text-shadow: 20rem;
+    font-style: oblique;
+    margin: 20px;
+    text-align: center;
+     
+     
+    
+
+
+
+}
+
+
+
+.section__uno_imagen{
+    
+    
+    border-radius: 2em;  
+    border-style: ridge;
+    border-color: rgb(231, 193, 48);
+    width: 300px;
+    
+
+
+}
+
+
+.main__sectionhero_a{
+    display: flex;
+    justify-content: center;
+
+    color: rgb(71, 69, 69);
+    font-weight: bolder;
+    background-color:  rgb(231, 193, 48);
+    border-radius: 0px;
+    margin: 10px;
+    padding: 5px;
+
+
+}
+.section__productosdestacados{
+    display: flex;
+    margin: 62px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+    
+    
+}
+
+.section__productosdescados_img_grupo{
+    display: flex;
+
+
+
+
+
+}
+
+
+.section__productosdestacados_img{
+    width: 250px;
+    margin: 10px;
+}
+
+
+
+.productosdestacados_h1{
+    display: flex;
+    color: rgb(231, 193, 48);
+    align-self: flex-start;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    margin: 120px;
+    margin-bottom: 50px;
+    margin-top: 1px;
+    
+    
+
+}
+.video_index{
+    background-image: url(../img/fondo/black-concrete-wall.jpg);
+    
+    display: flex;
+    align-items: center;
+    
+       
+}
+.video_index_video{
+    width: 600px;
+    margin: 20px;
+
+}
+
+.video_index_h1{
+
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 500%;
+}
+
+    
+    
+   
+    
+    
+    
+    
+    
+
+
+
+
+/*..................BODY BUZOS...................*/
+
+.esqueleto__universal_buzos{
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px ;
+    
+
+
+}  
+
+.BUZOS_MAIN{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.buzos__main_titulo{
+    background: url(../img/fondo/black-concrete-wall.jpg);
+    color: rgb(231, 193, 48);
+    text-align: center;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    padding: 50px;
+    margin: 60px;
+  
+}
+
+.buzos__main_a{
+    
+    color: rgb(71, 69, 69);
+    font-weight: bolder;
+    background-color: rgb(231, 193, 48);
+    border-radius: 28px;
+    margin: 147px;
+    padding: 1px;
+
+    top: 540px;
+}
+
+
+
+.BUZOS_MAIN_12{
+    
+    width: 300px;
+
+    margin: 50px;
+}
+
+
+.BUZOS_MAIN_14{
+    width: 300px;
+    margin: 50px;
+}
+
+
+.BUZOS_MAIN_18{
+    width: 300px;
+    margin: 50px;
+}
+
+
+.BUZOS_MAIN_7{
+    width: 300px;
+    margin: 50px;
+}
+
+
+.BUZOS_MAIN_9{
+    width: 300px;
+    margin: 50px;
+}
+
+
+.BUZOS_MAIN_49{
+    width: 300px;
+    margin: 50px;
+}
+
+
+
+
+
+/*..................BODY GORRAS...................*/
+
+
+
+
+.esqueleto__universal_gorras{
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px ;
+    
+
+
+}  
+
+.gorras__main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+.gorras__main_titulo{
+    background: url(../img/fondo/black-concrete-wall.jpg);
+    color: rgb(231, 193, 48);
+    text-align: center;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    padding: 50px;
+    margin: 60px;
+  
+}
+
+.gorras__main_a{
+    
+    color: rgb(71, 69, 69);
+    font-weight: bolder;
+    background-color: rgb(231, 193, 48);
+    border-radius: 28px;
+    margin: 147px;
+    padding: 1px;
+
+    top: 540px;
+}
+
+
+.gorras_size{
+    width: 300px;
+    margin: 50px;
+}
+
+
+
+/*..................BODY EQUIPO...................*/
+
+
+.esqueleto__universal_equipo{
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px ;
+    
+
+
+}
+.main__equipo{
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+   
+
+}
+.main__equipo_imagenfondo{
+    border-radius: 2em;  
+    
+    border-color: rgb(231, 193, 48);
+    width: 800px;
+    padding: 28px;
+    
+   
+    
+}
+
+.main__equipo_text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  rgb(71, 69, 69);
+    text-shadow: 20rem;
+    font-style: oblique;
+    margin: 70px;
+    text-align: center;
+
+ 
+}
+
+
+/*..................BODY CONTACTO...................*/
+
+
+
+.esqueleto__universal_contacto{
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px ;
+
+
+}
+.main__contacto{
+    background: url(../img/fondo/black-concrete-wall.jpg);
+    
+    
+}
+.main__contacto_form{
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+.main__contacto_form_text{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(231, 193, 48);
+    font-style: oblique;
+    margin: 31px;
+    text-align: center;
+}
+
+.main__contacto_form_contenedor{
+    border: solid rgb(231, 193, 48);
+    width: 400px;
+    font-size: x-large;
+    background: repeating-linear-gradient(45deg, black, transparent 310px);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main__contacto_fieldset{
+    border: none;
+    background-color: none;
+}
+.main__registrarme{
+    background-color:rgb(231, 193, 48);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+
+
+/*..................MEDIA QUERIES ESTILOS MOVILES...................*/
+
+
+@media screen and (max-width: 768px) {
+
+    .main__sectionhero{
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+
+        }
+    .section__productosdestacados_img{
+        width: 273px;
+    
+        flex-wrap: wrap;
+        
+
+
+   }
+
+    .header__paginas_a{
+        display: flex;
+        justify-content: center;
+        color: rgb(52, 53, 9);
+        font-size: xx-large;
+       
+        padding: 7px;
+        margin: 28px;
+        position: relative;  
+        border-style: groove;
+        border-color: rgb(236, 241, 241);    
+    
+    }
+    .productosdestacados_h1{
+        text-align: center;
+    }
+
+    
+    .main__sectionhero_a {
+        width: 570;
+        font-size: xx-large;
+
+        
+        }
+        
+    .section__productosdestacados{
+
+        flex-direction: column;
+        align-items: center;
+        margin: 1px;
+
+
+    } 
+    .section__productosdescados_img_grupo{
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+
+    .video_index{
+        flex-direction: column;
+        padding-bottom: 120px;
+
+    }
+    .video_index_video{
+        width: 100%;
+    }
+    .video_index_h1{
+        font-size: 3rem;
+        
+    }
+
+    .footer__universal_proyecto{
+        flex-direction: column-reverse;
+    } 
+
+    .esqueleto__universal{
+       
+        grid-template-rows: auto 1fr  auto auto;      
+       
+    }
+    .header__paginas{
+        flex-direction: column;
+    } 
+    .header__universal_proyecto{
+        justify-content: center;
+    }
+
+    .section__uno_imagen{
+        width: 580px;
+
+
+    }
+}
+
