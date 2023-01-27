@@ -117,6 +117,9 @@ footer{
     
 
 }
+.footer_universal_contenedores{
+    display: flex;
+}
 
 
 
@@ -509,10 +512,12 @@ footer{
 
 
 
-/*..................MEDIA QUERIES ESTILOS MOVILES...................*/
+/*...............MEDIA QUERIES ESTILOS MOVILES...................*/
 
 
-@media screen and (max-width: 768px) {
+/*index*/
+
+@media screen and (max-width: 425px) {
 
     .main__sectionhero{
         flex-direction: column;
@@ -521,7 +526,7 @@ footer{
 
         }
     .section__productosdestacados_img{
-        width: 273px;
+        width: 215px;
     
         flex-wrap: wrap;
         
@@ -533,10 +538,10 @@ footer{
         display: flex;
         justify-content: center;
         color: rgb(52, 53, 9);
-        font-size: xx-large;
+        font-size: large;
        
         padding: 7px;
-        margin: 28px;
+        margin: 8px;
         position: relative;  
         border-style: groove;
         border-color: rgb(236, 241, 241);    
@@ -544,12 +549,16 @@ footer{
     }
     .productosdestacados_h1{
         text-align: center;
+        font-size: x-large;
+        margin-bottom: 23px;
+        margin-top: 34px;
+
     }
 
     
     .main__sectionhero_a {
         width: 570;
-        font-size: xx-large;
+        font-size: large;
 
         
         }
@@ -574,6 +583,7 @@ footer{
     }
     .video_index_video{
         width: 100%;
+        margin-bottom: 100px;
     }
     .video_index_h1{
         font-size: 3rem;
@@ -597,9 +607,20 @@ footer{
     }
 
     .section__uno_imagen{
-        width: 580px;
+        width: 400px;
+
 
 
     }
-}
+    .footer_universal_contenedores {
+        display: flex;
+        margin: 50px;
+    }
+} 
+
+
+/*...........BUZOS..............*/
+
+
+
 
