@@ -526,10 +526,9 @@ footer{
 
         }
     .section__productosdestacados_img{
-        width: 215px;
+        width: 150px;
     
         flex-wrap: wrap;
-        
 
 
    }
@@ -607,7 +606,7 @@ footer{
     }
 
     .section__uno_imagen{
-        width: 400px;
+        width: 300px;
 
 
 
