@@ -34,10 +34,10 @@
     height: 0px;
     position: fixed;
     top: 10px;
-    left: 1%;
+    left: 2%;
     bottom:0%;
     right: 0%;
-    scale: 15%;
+    scale: 10%;
 }
 
     
@@ -573,6 +573,7 @@ footer{
     .section__productosdescados_img_grupo{
         flex-wrap: wrap;
         justify-content: center;
+        flex-direction: column;
     } 
 
     .video_index{
