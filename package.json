@@ -1,0 +1,25 @@
+{
+  "name": "coder_house",
+  "version": "1.0.0",
+  "description": "un paquete de node para compilar scss a css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/main.scss css/compilado.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tute-roldan/mi_repositorio.git"
+  },
+  "author": "Matias Roldan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tute-roldan/mi_repositorio/issues"
+  },
+  "homepage": "https://github.com/tute-roldan/mi_repositorio#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

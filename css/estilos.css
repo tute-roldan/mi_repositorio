@@ -34,10 +34,10 @@
     height: 0px;
     position: fixed;
     top: 10px;
-    left: 2%;
+    left: 1%;
     bottom:0%;
     right: 0%;
-    scale: 10%;
+    scale: 15%;
 }
 
     
@@ -206,6 +206,8 @@ footer{
 
 .section__productosdescados_img_grupo{
     display: flex;
+    
+    margin: 10px;
 
 
 
@@ -526,7 +528,7 @@ footer{
 
         }
     .section__productosdestacados_img{
-        width: 150px;
+        width: 100px;
     
         flex-wrap: wrap;
 
@@ -547,11 +549,9 @@ footer{
     
     }
     .productosdestacados_h1{
-        text-align: center;
-        font-size: x-large;
-        margin-bottom: 23px;
-        margin-top: 34px;
-
+       
+        font-size: large;
+        
     }
 
     
@@ -574,6 +574,8 @@ footer{
         flex-wrap: wrap;
         justify-content: center;
         flex-direction: column;
+       
+       
     } 
 
     .video_index{
@@ -586,7 +588,8 @@ footer{
         margin-bottom: 100px;
     }
     .video_index_h1{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+        margin: 10px;
         
     }
 
@@ -607,7 +610,7 @@ footer{
     }
 
     .section__uno_imagen{
-        width: 350px;
+        width: 220px;
 
 
 
