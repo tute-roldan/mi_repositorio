@@ -197,11 +197,9 @@ footer{
 
 }
 .section__productosdestacados{
-    display: flex;
+   
     margin: 62px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+   
 
     
     
