@@ -221,8 +221,9 @@ footer{
 
 
 .section__productosdestacados_img{
+    
+    padding: 5%;
     width: 250px;
-    margin: 10px;
 }
 
 .h1{
@@ -529,7 +530,7 @@ footer{
 
 /*index*/
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 425px){
 
     .main__sectionhero{
         flex-direction: column;
@@ -537,13 +538,9 @@ footer{
         align-items: center;
 
         }
-    .section__productosdestacados_img{
-        width: 100px;
-    
-        flex-wrap: wrap;
 
 
-   }
+   
 
     .header__paginas_a{
         display: flex;
@@ -557,7 +554,7 @@ footer{
         border-style: groove;
         border-color: rgb(236, 241, 241);    
     
-   
+    }
 
     
     .main__sectionhero_a {
@@ -566,6 +563,10 @@ footer{
 
         
         }
+
+    .productosdestacados_h1{
+        font-size: 35px;
+    }    
         
     .section__productosdestacados{
 
@@ -575,13 +576,23 @@ footer{
 
 
     } 
-    .section__productosdescados_img_grupo{
-        flex-wrap: wrap;
-        justify-content: center;
-        flex-direction: column;
+
+    .section__productosdestacados_img {
+        padding: 5%;
+        width: 120px;
+    }
+    
+    .section__productosdescados_img_grupo {
+            display: flex;
+            margin: 10px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-content: space-between;
+        }
        
        
-    } 
+    
 
     .video_index{
         flex-direction: column;
@@ -634,8 +645,6 @@ footer{
 
 
 
-}
-/*...........BUZOS..............*/
 
 
 
