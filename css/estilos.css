@@ -9,13 +9,6 @@
 
 /*........HEADER PROYECTO..........*/
 
-.esqueleto__universal{
-    display: grid;
-    grid-template-rows: auto auto 1fr auto auto;    
-          
-    gap: 10px 10px;
-
-}
 
 
 
@@ -63,13 +56,12 @@
     
     
     color: rgb(52, 53, 9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
-    border-radius: 50px;
     padding: 7px;
     margin: 28px;
     position: relative;  
-    border-style: groove;
-    border-color: rgb(236, 241, 241);    
+      
 
 }
 
@@ -231,16 +223,15 @@ footer{
 .productosdestacados_h1{
     display: flex;
     color: rgb(231, 193, 48);
-    align-self: flex-start;    
+       
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 350%  ;
     margin: 120px;
     margin-bottom: 50px;
     margin-top: 1px;
-   
+   justify-content: space-around;
+   text-align: center;
     
-    
-
 }
 
 
@@ -530,6 +521,50 @@ footer{
 
 @media screen and (max-width: 425px){
 
+  
+   
+    .header__universal_proyecto{
+        display: flex;
+        justify-content: end;
+        background-color: rgb(231, 193, 48);
+        padding-top: 30px;
+       
+        
+    }
+    
+    .header_botton{
+        flex-direction: row-reverse;
+    }
+
+
+    .header__logo{
+        width: 8px;
+        height: 0px;
+        position: fixed;
+        top: 10px;
+        left: 1%;
+        bottom:0%;
+        right: 0%;
+        scale: 10%;
+    }
+    
+    .header__paginas_a{
+        text-align: end;
+        padding: 7px;
+        margin: 0px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     .main__sectionhero{
         flex-direction: column;
         padding: 10px;
@@ -540,19 +575,7 @@ footer{
 
    
 
-    .header__paginas_a{
-        display: flex;
-        justify-content: center;
-        color: rgb(52, 53, 9);
-        font-size: large;
-       
-        padding: 7px;
-        margin: 8px;
-        position: relative;  
-        border-style: groove;
-        border-color: rgb(236, 241, 241);    
     
-    }
 
     
     .main__sectionhero_a {
@@ -577,13 +600,13 @@ footer{
 
     .section__productosdestacados_img {
         padding: 5%;
-        width: 120px;
+        width: 148px;
     }
     
     .section__productosdescados_img_grupo {
         display: flex;
         margin: 10px;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-content: space-around;
@@ -601,8 +624,8 @@ footer{
         margin-bottom: 100px;
     }
     .video_index_h1{
-        font-size: 1.5rem;
-        margin: 10px;
+        font-size: 2rem;
+        
         
     }
 
@@ -615,12 +638,7 @@ footer{
         grid-template-rows: auto 1fr  auto auto;      
        
     }
-    .header__paginas{
-        flex-direction: column;
-    } 
-    .header__universal_proyecto{
-        justify-content: center;
-    }
+    
 
     .section__uno_imagen{
         width: 220px;
@@ -630,8 +648,14 @@ footer{
     }
     .footer_universal_contenedores {
         display: flex;
-        margin: 50px;
+        margin: 15px;
     }
+
+
+    
+    .footer__iconoredes {
+         width: 57px;
+}
 } 
 
 
