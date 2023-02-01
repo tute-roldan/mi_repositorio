@@ -301,55 +301,20 @@ footer{
   
 }
 
-.buzos__main_a{
-    
-    color: rgb(71, 69, 69);
-    font-weight: bolder;
-    background-color: rgb(231, 193, 48);
-    border-radius: 28px;
-    margin: 147px;
-    padding: 1px;
-
-    top: 540px;
-}
 
 
 
-.BUZOS_MAIN_12{
+.buzos_main_img{
     
     width: 300px;
 
     margin: 50px;
 }
 
+.buzos_button{
+    display: flex;
+    justify-content: center;
 
-.BUZOS_MAIN_14{
-    width: 300px;
-    margin: 50px;
-}
-
-
-.BUZOS_MAIN_18{
-    width: 300px;
-    margin: 50px;
-}
-
-
-.BUZOS_MAIN_7{
-    width: 300px;
-    margin: 50px;
-}
-
-
-.BUZOS_MAIN_9{
-    width: 300px;
-    margin: 50px;
-}
-
-
-.BUZOS_MAIN_49{
-    width: 300px;
-    margin: 50px;
 }
 
 
@@ -390,22 +355,19 @@ footer{
   
 }
 
-.gorras__main_a{
-    
-    color: rgb(71, 69, 69);
-    font-weight: bolder;
-    background-color: rgb(231, 193, 48);
-    border-radius: 28px;
-    margin: 147px;
-    padding: 1px;
 
-    top: 540px;
+
+.gorras_main_img{
+    
+    width: 300px;
+
+    margin: 50px;
 }
 
+.gorras_button{
+    display: flex;
+    justify-content: center;
 
-.gorras_size{
-    width: 300px;
-    margin: 50px;
 }
 
 
@@ -431,11 +393,9 @@ footer{
 
 }
 .main__equipo_imagenfondo{
-    border-radius: 2em;  
-    
-    border-color: rgb(231, 193, 48);
-    width: 800px;
-    padding: 28px;
+    border-radius: 2em;    
+    width: 815px;
+    padding: 10px;
     
    
     
@@ -443,11 +403,11 @@ footer{
 
 .main__equipo_text{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:  rgb(71, 69, 69);
-    text-shadow: 20rem;
+    color:  rgb(71, 69, 69);   
     font-style: oblique;
-    margin: 70px;
-    text-align: center;
+    margin: 45px;
+    text-align: end;
+    font-size: 2.5rem;
 
  
 }
@@ -522,20 +482,17 @@ footer{
 @media screen and (max-width: 425px){
 
   
-   
     .header__universal_proyecto{
         display: flex;
         justify-content: end;
         background-color: rgb(231, 193, 48);
         padding-top: 30px;
-       
-        
+              
     }
     
     .header_botton{
         flex-direction: row-reverse;
     }
-
 
     .header__logo{
         width: 8px;
@@ -554,30 +511,14 @@ footer{
         margin: 0px;
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+           
     .main__sectionhero{
         flex-direction: column;
         padding: 10px;
         align-items: center;
 
         }
-
-
    
-
-    
-
-    
     .main__sectionhero_a {
         width: 570;
         font-size: large;
@@ -612,7 +553,6 @@ footer{
         align-content: space-around;
     }
        
-    
 
     .video_index{
         flex-direction: column;
@@ -655,8 +595,80 @@ footer{
     
     .footer__iconoredes {
          width: 57px;
+         padding: 10px;
+    }
+
+
+/*buzos*/
+
+    .buzos__main_titulo{
+        margin: 0px;
+    }
+
+    .buzos_main_img {
+        width: 300px;
+        padding: 10px;
+        margin: 10px;
+         }
+
+/*gorras*/
+
+    .gorras__main_titulo{
+    margin: 0px;
+    }
+
+    .gorras_main_img {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+     }    
+
+
+/*equipo*/
+
+    .main__equipo {
+    display: flex;
+    flex-direction: column; 
+    }
+    .main__equipo_text{
+
+        margin: 25px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .main__equipo_imagenfondo{
+        width: 300px;
+    } 
+
+
+
+/*contacto*/
+
+    .main__contacto_form{
+        height: 700px;
+
+    }
+
+
+    .main__contacto_form_contenedor{
+        width: 274px;
+        font-size: medium;
+
+    }
+
+
+
+
+
+
+
 }
-} 
+
+
+
+
+
+ 
 
 
     
