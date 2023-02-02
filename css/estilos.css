@@ -210,6 +210,7 @@ footer{
 
 .section__productosdescados_img_grupo{
     display: flex;
+    justify-content: space-around;
     
     margin: 10px;
 
@@ -487,6 +488,25 @@ footer{
 /*...............MEDIA QUERIES ESTILOS MOVILES...................*/
 
 
+@media screen and (min-width: 1024px){
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*index*/
 
 
@@ -646,14 +666,14 @@ footer{
         }
 
      .section__uno_imagen{
-            width: 250px;
+            width: 300px;
     
     
     
         }    
 
     .productosdestacados_h1{
-        font-size: 30px;
+        font-size: 35px;
         }    
         
     .section__productosdestacados{
@@ -667,7 +687,7 @@ footer{
 
     .section__productosdestacados_img {
         padding: 5%;
-        width: 132px;
+        width: 148px;
     }
     
     .section__productosdescados_img_grupo {
@@ -716,7 +736,7 @@ footer{
    
     .footer_universal_contenedores {
         display: flex;
-        margin: 7px;
+        margin: 15px;
     }
 
 
