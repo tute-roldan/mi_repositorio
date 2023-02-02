@@ -653,7 +653,7 @@ footer{
         }    
 
     .productosdestacados_h1{
-        font-size: 35px;
+        font-size: 30px;
         }    
         
     .section__productosdestacados{
@@ -667,7 +667,7 @@ footer{
 
     .section__productosdestacados_img {
         padding: 5%;
-        width: 148px;
+        width: 132px;
     }
     
     .section__productosdescados_img_grupo {
@@ -716,7 +716,7 @@ footer{
    
     .footer_universal_contenedores {
         display: flex;
-        margin: 15px;
+        margin: 7px;
     }
 
 
