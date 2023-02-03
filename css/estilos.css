@@ -109,7 +109,7 @@ footer{
 .iconos_redes{
 
     display: flex;
-    padding: 11px;
+    padding: 10px;
 
 }
 
@@ -718,7 +718,7 @@ footer{
     .iconos_redes{
 
         display: flex;
-        padding: 11px;
+        padding: 10px;
 
     }
 
@@ -736,7 +736,7 @@ footer{
    
     .footer_universal_contenedores {
         display: flex;
-        margin: 15px;
+        
     }
 
 
