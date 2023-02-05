@@ -488,12 +488,34 @@ footer{
 /*...............MEDIA QUERIES ESTILOS MOVILES...................*/
 
 
-@media screen and (min-width: 1024px){
+@media screen and (max-width: 1024px){
+
+    
+
+    
+    .main__equipo_imagenfondo {
+        width: 750px;
+        padding: 10px;
+        border-radius: 40px;
+    }
 
 
+    .main__equipo_text {
+        text-align: start;
+        font-size: 1.8rem;
+        margin: 28px;
+     }
+
+    .main__equipo {
+        display: flex;
+        flex-direction: row;
+    }
 
 
 }
+
+
+
 
 
 
@@ -599,7 +621,7 @@ footer{
         .main__equipo_text {
         
         text-align: start;
-        font-size: 1.3rem;     
+        font-size: 1.5rem;     
 
         }
         .main__equipo_imagenfondo{
@@ -785,9 +807,9 @@ footer{
         font-size: 1.2rem;
     }
     .main__equipo_imagenfondo{
-        width: 300px;
-        align-items: center;
-    } 
+        width: 100%;
+
+     }
     
    
 
