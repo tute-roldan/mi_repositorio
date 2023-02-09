@@ -14,7 +14,7 @@
 
 
 /*.......................*/
-.header__universal_proyecto{
+.header{
     display: flex;
     justify-content: end;
     background-color: rgb(231, 193, 48);
@@ -74,7 +74,7 @@ a{
 /*.....FOOTER PROYECTO....*/
 
 
-footer{
+.footer{
     background-color: rgb(231, 193, 48);
 }
 
@@ -106,12 +106,6 @@ footer{
     
 
 }
-.iconos_redes{
-
-    display: flex;
-    padding: 10px;
-
-}
 
 
 
@@ -120,9 +114,6 @@ footer{
     margin: 10px;
     
 
-}
-.footer_universal_contenedores{
-    display: flex;
 }
 
 

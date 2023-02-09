@@ -1,0 +1,32 @@
+.footer{
+    background-color: rgb(231, 193, 48);
+    &__universal_proyecto{
+        display: flex;
+        padding: 35px;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;}
+    &__text{
+    
+        color:  rgb(43, 42, 40);
+        font-family: Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        width: 250px;
+        text-align: center; }
+    
+    &__logo{
+        width: 100px; }
+    
+    &__iconoredes{
+        width: 100px;
+        margin: 10px;}
+        
+}
+
+
+
+
+
+
