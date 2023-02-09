@@ -125,45 +125,27 @@ a{
 
 
 
-.main__section_uno{
+.inicio{
     background-image: url(../img/fondo/black-concrete-wall.jpg);
     background-size: cover;
 }
 
-.main__sectionhero{
+.inicio_sectionuno{
     padding: 55px;
     
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    
-    
-
-
-        
+      
       
 }
 
 
-.main__sectionhero_text1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(231, 221, 221);
-    text-shadow: 20rem;
-    font-style: oblique;
-    margin: 20px;
-    text-align: center;
-     
-     
-    
 
 
 
-}
-
-
-
-.section__uno_imagen{
+.inicio_sectionuno_imagen{
     
     
     border-radius: 2em;  
@@ -176,7 +158,7 @@ a{
 }
 
 
-.main__sectionhero_a{
+.inicio_sectionuno_a{
     display: flex;
     justify-content: center;
 
@@ -189,40 +171,14 @@ a{
 
 
 }
-.section__productosdestacados{
+.inicio_sectiondos{
    
-    margin: 62px;
-   
-
-    
-    
+    margin: 62px;    
     
 }
 
-.section__productosdescados_img_grupo{
-    display: flex;
-    justify-content: space-around;
-    
-    margin: 10px;
 
-
-
-
-
-}
-
-
-.section__productosdestacados_img{
-    
-    padding: 5%;
-    width: 250px;
-}
-
-.h1{
-    display: none;
-}
-
-.productosdestacados_h1{
+.inicio_sectiondos_h1{
     display: flex;
     color: rgb(231, 193, 48);
        
@@ -236,9 +192,33 @@ a{
     
 }
 
+.inicio_sectiondos_grupo{
+    display: flex;
+    justify-content: space-around;
+    
+    margin: 10px;
 
 
-.video_index{
+
+
+
+}
+
+
+.inicio_sectiondos_img{
+    
+    padding: 5%;
+    width: 250px;
+}
+
+.h1{
+    display: none;
+}
+
+
+
+
+.inicio_sectiontres{
     background-image: url(../img/fondo/black-concrete-wall.jpg);
     
     display: flex;
@@ -246,13 +226,13 @@ a{
     
        
 }
-.video_index_video{
+.inicio_sectiontres_video{
     width: 600px;
     margin: 20px;
 
-}
+}   
 
-.video_index_h1{
+.inicio_sectiontres_h1{
 
     text-align: center;
     font-size: xx-large;
@@ -285,14 +265,14 @@ a{
 
 }  
 
-.BUZOS_MAIN{
+.buzos{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     
 }
 
-.buzos__main_titulo{
+.buzos_titulo{
     background: url(../img/fondo/black-concrete-wall.jpg);
     color: rgb(231, 193, 48);
     text-align: center;   
@@ -306,7 +286,7 @@ a{
 
 
 
-.buzos_main_img{
+.buzos_img{
     
     width: 300px;
 
@@ -338,7 +318,7 @@ a{
 
 }  
 
-.gorras__main{
+.gorras{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -346,7 +326,7 @@ a{
     
 }
 
-.gorras__main_titulo{
+.gorras_titulo{
     background: url(../img/fondo/black-concrete-wall.jpg);
     color: rgb(231, 193, 48);
     text-align: center;   
@@ -359,7 +339,7 @@ a{
 
 
 
-.gorras_main_img{
+.gorras_img{
     
     width: 300px;
 
@@ -386,7 +366,7 @@ a{
 
 
 }
-.main__equipo{
+.equipo{
     display: flex;
     flex-direction: row-reverse;
     
@@ -394,7 +374,7 @@ a{
    
 
 }
-.main__equipo_imagenfondo{
+.equipo_imagen{
     border-radius: 2em;    
     width: 815px;
     padding: 10px;
@@ -403,7 +383,7 @@ a{
     
 }
 
-.main__equipo_text{
+.equipo_text{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:  rgb(71, 69, 69);   
     font-style: oblique;
@@ -427,12 +407,12 @@ a{
 
 
 }
-.main__contacto{
+.contacto{
     background: url(../img/fondo/black-concrete-wall.jpg);
     
     
 }
-.main__contacto_form{
+.contacto_form{
     display: flex;
     height: 800px;
     flex-direction: column;
@@ -444,7 +424,7 @@ a{
 }
 
 
-.main__contacto_form_text{
+.contacto_form_text{
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(231, 193, 48);
@@ -453,7 +433,7 @@ a{
     text-align: center;
 }
 
-.main__contacto_form_contenedor{
+.contacto_form_contenedor{
     border: solid rgb(231, 193, 48);
     width: 400px;
     font-size: x-large;
@@ -462,11 +442,11 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.main__contacto_fieldset{
+.contacto_form_fieldset{
     border: none;
     background-color: none;
 }
-.main__registrarme{
+.contacto_form_registrarme{
     background-color:rgb(231, 193, 48);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
@@ -482,25 +462,25 @@ a{
 @media screen and (max-width: 1024px){
 
     
+    
+    .equipo {
+        display: flex;
+        flex-direction: row;
+    }
 
     
-    .main__equipo_imagenfondo {
+    .equipo_imagen {
         width: 750px;
         padding: 10px;
         border-radius: 40px;
     }
 
 
-    .main__equipo_text {
+    .equipo_text {
         text-align: start;
         font-size: 1.8rem;
         margin: 28px;
      }
-
-    .main__equipo {
-        display: flex;
-        flex-direction: row;
-    }
 
 
 }
@@ -567,55 +547,55 @@ a{
 
 
 
-        .main__sectionhero {
+        .inicio_sectionuno {
     
          flex-wrap: nowrap;
         }
-        .section__uno_imagen {
+        .inicio_sectionuno_imagen {
             
             width: 230px;
             margin: 10px;
         }
 
-        .section__productosdescados_img_grupo {
+        .inicio_sectiondos_grupo {
             display: flex;
             /* margin: -52px; */
             flex-wrap: wrap;
          }
 
-         .section__productosdestacados_img {
+         .inicio_sectiondos_img{
             
             width: 312px;
         }
 
 
 
-        .video_index {
+        .inicio_sectiontres{
             
             flex-direction: column;
         }
-        .video_index_video {
+        .inicio_sectiontres_video{
             width: 740px;
             margin: 17px;
         }
        
-        .video_index_h1 {
+        .inicio_sectiontres_h1 {
           font-size: 300%;
             padding: 50px;
         }
 
-        .main__equipo {
+        .equipo {
             display: flex;
             flex-direction: row;
              }
 
-        .main__equipo_text {
+        .equipo_text {
         
         text-align: start;
         font-size: 1.5rem;     
 
         }
-        .main__equipo_imagenfondo{
+        .equipo_imagen{
             width: 500px;
             padding: 0px;
             border-radius: 0px;
@@ -664,46 +644,47 @@ a{
     }
     
            
-    .main__sectionhero{
+    .inicio_sectionuno{
         flex-direction: column;
         padding: 10px;
         align-items: center;
 
         }
    
-    .main__sectionhero_a {
+    .inicio_sectionuno_a {
         width: 570;
         font-size: large;
 
         
         }
 
-     .section__uno_imagen{
+     .inicio_sectionuno_imagen{
             width: 300px;
     
     
     
-        }    
-
-    .productosdestacados_h1{
-        font-size: 35px;
-        }    
-        
-    .section__productosdestacados{
+    }   
+    .inicio_sectiondos{
 
         flex-direction: column;
         align-items: center;
         margin: 1px;
 
 
-     } 
+    } 
+         
 
-    .section__productosdestacados_img {
+    .inicio_sectiondos_h1{
+        font-size: 35px;
+        }    
+        
+
+    .inicio_sectiondos_img {
         padding: 5%;
         width: 148px;
     }
     
-    .section__productosdescados_img_grupo {
+    .inicio_sectiondos_grupo {
         display: flex;
         margin: 10px;
         flex-direction: row;
@@ -713,16 +694,16 @@ a{
     }
        
 
-    .video_index{
+    .inicio_sectiontres{
         flex-direction: column;
         padding-bottom: 120px;
 
     }
-    .video_index_video{
+    .inicio_sectiontres_video{
         width: 100%;
         margin-bottom: 100px;
     }
-    .video_index_h1{
+    .inicio_sectiontres_h1{
         font-size: 1.5rem;
         padding: 1px;
         
@@ -762,11 +743,11 @@ a{
 
 /*buzos*/
 
-    .buzos__main_titulo{
+    .buzos_titulo{
         margin: 0px;
     }
 
-    .buzos_main_img {
+    .buzos_img {
         width: 300px;
         padding: 10px;
         margin: 10px;
@@ -774,11 +755,11 @@ a{
 
 /*gorras*/
 
-    .gorras__main_titulo{
+    .gorras_titulo{
     margin: 0px;
     }
 
-    .gorras_main_img {
+    .gorras_img {
     width: 300px;
     padding: 10px;
     margin: 10px;
@@ -787,17 +768,17 @@ a{
 
 /*equipo*/
 
-    .main__equipo {
+    .equipo {
     display: flex;
     flex-direction: column; 
     }
-    .main__equipo_text{
+    .equipo_text{
 
         margin: 25px;
         text-align: center;
         font-size: 1.2rem;
     }
-    .main__equipo_imagenfondo{
+    .equipo_imagen{
         width: 100%;
 
      }
@@ -807,13 +788,13 @@ a{
 
 /*contacto*/
 
-    .main__contacto_form{
+    .contacto_form{
         height: 700px;
 
     }
 
 
-    .main__contacto_form_contenedor{
+    .contacto_form_contenedor{
         width: 274px;
         font-size: medium;
 
