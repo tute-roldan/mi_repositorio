@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+.h1 {
+  display: none; }
+
 a {
   text-decoration: none;
   font-family: Tahoma, Geneva, Verdana, sans-serif; }
@@ -35,6 +38,172 @@ a {
       margin: 28px;
       position: relative; }
 
+.inicio {
+  background-image: url(../img/fondo/black-concrete-wall.jpg);
+  background-size: cover; }
+  .inicio_sectionuno {
+    padding: 55px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .inicio_sectionuno_imagen {
+      border-radius: 2em;
+      border-style: ridge;
+      border-color: #e7c130;
+      width: 300px; }
+    .inicio_sectionuno_a {
+      display: flex;
+      justify-content: center;
+      color: #474545;
+      font-weight: bolder;
+      background-color: #e7c130;
+      border-radius: 0px;
+      margin: 10px;
+      padding: 5px; }
+  .inicio_sectiondos {
+    margin: 62px; }
+    .inicio_sectiondos_h1 {
+      display: flex;
+      color: #e7c130;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 350%;
+      margin: 120px;
+      margin-bottom: 50px;
+      margin-top: 1px;
+      justify-content: space-around;
+      text-align: center; }
+    .inicio_sectiondos_grupo {
+      display: flex;
+      justify-content: space-around;
+      margin: 10px; }
+    .inicio_sectiondos_img {
+      padding: 5%;
+      width: 250px; }
+  .inicio_sectiontres {
+    background-image: url(../img/fondo/black-concrete-wall.jpg);
+    display: flex;
+    align-items: center; }
+    .inicio_sectiontres_video {
+      width: 600px;
+      margin: 20px; }
+    .inicio_sectiontres_h1 {
+      text-align: center;
+      font-size: xx-large;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 500%; }
+
+.esqueleto__universal_buzos {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px; }
+
+.buzos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .buzos_titulo {
+    background: url(../img/fondo/black-concrete-wall.jpg);
+    color: #e7c130;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    padding: 50px;
+    margin: 60px; }
+  .buzos_img {
+    width: 300px;
+    margin: 50px; }
+  .buzos_button {
+    display: flex;
+    justify-content: center; }
+
+.esqueleto__universal_gorras {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px; }
+
+.gorras {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .gorras_titulo {
+    background: url(../img/fondo/black-concrete-wall.jpg);
+    color: #e7c130;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    padding: 50px;
+    margin: 60px; }
+  .gorras_titulo {
+    background: url(../img/fondo/black-concrete-wall.jpg);
+    color: #e7c130;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    padding: 50px;
+    margin: 60px; }
+  .gorras_img {
+    width: 300px;
+    margin: 50px; }
+  .gorras_button {
+    display: flex;
+    justify-content: center; }
+
+.esqueleto__universal_equipo {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px; }
+
+.equipo {
+  display: flex;
+  flex-direction: row-reverse; }
+  .equipo_imagen {
+    border-radius: 2em;
+    width: 815px;
+    padding: 10px; }
+  .equipo_text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #474545;
+    font-style: oblique;
+    margin: 45px;
+    text-align: end;
+    font-size: 2.5rem; }
+
+.esqueleto__universal_contacto {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px; }
+
+.contacto {
+  background: url(../img/fondo/black-concrete-wall.jpg); }
+  .contacto_form {
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .contacto_form_text {
+      font-size: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #e7c130;
+      font-style: oblique;
+      margin: 31px;
+      text-align: center; }
+    .contacto_form_contenedor {
+      border: solid #e7c130;
+      width: 400px;
+      font-size: x-large;
+      background: repeating-linear-gradient(45deg, black, transparent 310px);
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    .contacto_form_fieldset {
+      border: none;
+      background-color: none; }
+    .contacto_form_registrarme {
+      background-color: #e7c130;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
 .footer {
   background-color: #e7c130; }
   .footer__universal_proyecto {
@@ -56,7 +225,3 @@ a {
   .footer__iconoredes {
     width: 100px;
     margin: 10px; }
-
-    /*BODY INICIO*/
-
-    

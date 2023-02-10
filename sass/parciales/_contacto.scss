@@ -1,0 +1,43 @@
+
+.esqueleto__universal_contacto{
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px ;
+}
+
+.contacto{
+    background: url(../img/fondo/black-concrete-wall.jpg);
+    &_form{
+        display: flex;
+        height: 800px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &_text{
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(231, 193, 48);
+            font-style: oblique;
+            margin: 31px;
+            text-align: center;}
+        &_contenedor{
+            border: solid rgb(231, 193, 48);
+            width: 400px;
+            font-size: x-large;
+            background: repeating-linear-gradient(45deg, black, transparent 310px);
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        &_fieldset{
+            border: none;
+            background-color: none; }
+        &_registrarme{
+            background-color:rgb(231, 193, 48);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+    
+    }
+
+}
+
+

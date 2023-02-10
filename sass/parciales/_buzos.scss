@@ -1,0 +1,27 @@
+
+.esqueleto__universal_buzos{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px ;
+}  
+
+.buzos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    &_titulo{
+        background: url(../img/fondo/black-concrete-wall.jpg);
+        color: rgb(231, 193, 48);
+        text-align: center;   
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xx-large;
+        padding: 50px;
+        margin: 60px;}
+    &_img{    
+        width: 300px;
+        margin: 50px;}
+    &_button{
+        display: flex;
+        justify-content: center;}
+
+}

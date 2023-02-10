@@ -1,0 +1,23 @@
+
+.esqueleto__universal_equipo{
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px ;
+    }
+    
+.equipo{
+    display: flex;
+    flex-direction: row-reverse;
+    &_imagen{
+        border-radius: 2em;    
+        width: 815px;
+        padding: 10px;}
+    &_text{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:  rgb(71, 69, 69);   
+        font-style: oblique;
+        margin: 45px;
+        text-align: end;
+        font-size: 2.5rem; }  
+}
