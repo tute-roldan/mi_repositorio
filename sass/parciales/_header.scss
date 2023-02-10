@@ -2,13 +2,13 @@
 .header{
         display: flex;
         justify-content: end;
-        background-color: rgb(231, 193, 48);
+        background-color: $colorperas_uno;
         padding-top: 30px;   
         &__logo{
             width: 8px;
             height: 0px;
             position: fixed;
-            top: 10px;
+            top: $medida_gral;
             left: 1%;
             bottom:0%;
             right: 0%;
@@ -17,15 +17,15 @@
         &__paginas{
         
             display: flex;    
-            font-family:  Tahoma, Geneva, Verdana, sans-serif;
+            font-family:  $fuenteperas_dos;
             font-weight: bolder;     
             padding-bottom: 2rem;
             font-size: 125%;
             list-style: none; 
             
             &__paginas_a{
-                color: rgb(52, 53, 9);
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: $colorperas_dos;
+                font-family: $fuenteperas_uno;
                 padding: 7px;
                 margin: 28px;
                 position: relative;          

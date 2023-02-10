@@ -387,7 +387,7 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:  rgb(71, 69, 69);   
     font-style: oblique;
-    margin: 45px;
+    margin: 30px;
     text-align: end;
     font-size: 2.5rem;
 
@@ -510,20 +510,12 @@ a{
 /*header*/
 
         
-    .header__universal_proyecto{
-        display: flex;
-        justify-content: end;
-        background-color: rgb(231, 193, 48);
-        padding-top: 30px;
-              
-    }
+
     .header__logo{
       
         scale: 12%;
     }
     
-
-
 
     .header_botton{
         flex-direction: row-reverse;
@@ -614,13 +606,6 @@ a{
 @media screen and (max-width: 425px){
 
   
-    .header__universal_proyecto{
-        display: flex;
-        justify-content: end;
-        background-color: rgb(231, 193, 48);
-        padding-top: 30px;
-              
-    }
     
     .header_botton{
         flex-direction: row-reverse;

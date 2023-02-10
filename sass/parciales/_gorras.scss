@@ -3,7 +3,7 @@
 .esqueleto__universal_gorras{ 
     display: grid;
     grid-template-rows: auto 1fr auto;
-    gap: 10px ;
+    gap: $medida_gral;
     }  
 
 .gorras{
@@ -12,17 +12,17 @@
     justify-content: space-evenly;
     &_titulo{
         background: url(../img/fondo/black-concrete-wall.jpg);
-        color: rgb(231, 193, 48);
+        color: $colorperas_uno;
         text-align: center;   
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: $fuenteperas_tres;
         font-size: xx-large;
         padding: 50px;
         margin: 60px;}
     &_titulo{
         background: url(../img/fondo/black-concrete-wall.jpg);
-        color: rgb(231, 193, 48);
+        color:$colorperas_uno;
         text-align: center;   
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: $fuenteperas_tres;
         font-size: xx-large;
         padding: 50px;
         margin: 60px;}   

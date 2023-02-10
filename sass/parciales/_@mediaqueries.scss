@@ -1,0 +1,311 @@
+@media screen and (max-width: 1024px){
+
+    
+    
+    .equipo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+    .equipo_imagen {
+        width: 750px;
+        padding: $medida_gral;
+        border-radius: 40px;
+    }
+
+
+    .equipo_text {
+        text-align: start;
+        font-size: 1.8rem;
+        margin: 28px;
+     }
+
+
+}
+
+/*...........................................*/
+
+
+@media screen and (max-width: 768px){
+
+
+/*header*/
+
+ 
+    .header__logo{
+      
+        scale: 12%;
+    }
+    
+
+    .header_botton{
+        flex-direction: row-reverse;
+    }
+    
+    .header__paginas_a{
+        text-align: end;
+        padding: 7px;
+        margin: 0px;
+        font-size: larger;
+    }
+
+    .footer__iconoredes {
+        width: 70px;
+    }        
+    
+    .footer__text{
+
+        width: 13rem;
+    }
+
+
+
+    .inicio_sectionuno {
+
+        flex-wrap: nowrap;
+    }
+    .inicio_sectionuno_imagen {
+        
+        width: 230px;
+        margin: $medida_gral;
+    }
+
+    .inicio_sectiondos_grupo {
+        display: flex;
+        /* margin: -52px; */
+        flex-wrap: wrap;
+        }
+
+        .inicio_sectiondos_img{
+        
+        width: 312px;
+    }
+
+
+
+    .inicio_sectiontres{
+        
+        flex-direction: column;
+    }
+    .inicio_sectiontres_video{
+        width: 740px;
+        margin: 17px;
+    }
+    
+    .inicio_sectiontres_h1 {
+        font-size: 300%;
+        padding: 50px;
+    }
+
+    .equipo {
+        display: flex;
+        flex-direction: row;
+            }
+
+    .equipo_text {
+    
+    text-align: start;
+    font-size: 1.5rem;     
+
+    }
+    .equipo_imagen{
+        width: 500px;
+        padding: 0px;
+        border-radius: 0px;
+        
+    
+
+    }
+}
+
+
+/*.................................*/
+
+
+
+
+@media screen and (max-width: 425px){
+
+
+    
+    .header_botton{
+        flex-direction: row-reverse;
+    }
+
+    .header__logo{
+        width: 8px;
+        height: 0px;
+        position: fixed;
+        top: $medida_gral;
+        left: 1%;
+        bottom:0%;
+        right: 0%;
+        scale: 10%;
+    }
+    
+    .header__paginas_a{
+        text-align: end;
+        padding: 7px;
+        margin: 0px;
+    }
+    
+           
+    .inicio_sectionuno{
+        flex-direction: column;
+        padding: $medida_gral;
+        align-items: center;
+
+    }
+   
+    .inicio_sectionuno_a {
+        width: 570;
+        font-size: large;
+
+        
+    }
+
+     .inicio_sectionuno_imagen{
+            width: 300px;
+    
+    
+    
+    }   
+    .inicio_sectiondos{
+
+        flex-direction: column;
+        align-items: center;
+        margin: 1px;
+
+
+    } 
+         
+
+    .inicio_sectiondos_h1{
+        font-size: 35px;
+        }    
+        
+
+    .inicio_sectiondos_img {
+        padding: 5%;
+        width: 148px;
+    }
+    
+    .inicio_sectiondos_grupo {
+        display: flex;
+        margin: $medida_gral;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+       
+
+    .inicio_sectiontres{
+        flex-direction: column;
+        padding-bottom: 120px;
+
+    }
+    .inicio_sectiontres_video{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .inicio_sectiontres_h1{
+        font-size: 1.5rem;
+        padding: 1px;
+        
+        
+    }
+    .iconos_redes{
+
+        display: flex;
+        padding: $medida_gral;
+
+    }
+
+    .footer__universal_proyecto{
+        flex-direction: column-reverse;
+    } 
+
+    .esqueleto__universal{
+       
+        grid-template-rows: auto 1fr  auto auto;      
+       
+    }
+    
+
+   
+    .footer_universal_contenedores {
+        display: flex;
+        
+    }
+
+
+    
+    .footer__iconoredes {
+         width: 57px;
+         padding: $medida_gral;
+    }
+
+
+/*buzos*/
+
+    .buzos_titulo{
+        margin: 0px;
+    }
+
+    .buzos_img {
+        width: 300px;
+        padding: $medida_gral;
+        margin: $medida_gral;
+         }
+
+/*gorras*/
+
+    .gorras_titulo{
+    margin: 0px;
+    }
+
+    .gorras_img {
+    width: 300px;
+    padding: $medida_gral;
+    margin: $medida_gral;
+     }    
+
+
+/*equipo*/
+
+    .equipo {
+    display: flex;
+    flex-direction: column; 
+    }
+    .equipo_text{
+
+        margin: 25px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .equipo_imagen{
+        width: 100%;
+
+     }
+    
+   
+
+
+/*contacto*/
+
+    .contacto_form{
+        height: 700px;
+
+    }
+
+
+    .contacto_form_contenedor{
+        width: 274px;
+        font-size: medium;
+
+   
+    }
+
+}

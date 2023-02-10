@@ -5,8 +5,7 @@
     background-image: url(../img/fondo/black-concrete-wall.jpg);
     background-size: cover;
     &_sectionuno{
-        padding: 55px;
-        
+        padding: 55px;      
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -14,17 +13,17 @@
         &_imagen{
             border-radius: 2em;  
             border-style: ridge;
-            border-color: rgb(231, 193, 48);
+            border-color: $colorperas_uno;
             width: 300px;}
         &_a{
             display: flex;
             justify-content: center;
 
-            color: rgb(71, 69, 69);
+            color: $colorperas_dos;
             font-weight: bolder;
-            background-color:  rgb(231, 193, 48);
+            background-color: $colorperas_uno;
             border-radius: 0px;
-            margin: 10px;
+            margin:$medida_gral;
             padding: 5px;}
     }
 
@@ -32,9 +31,9 @@
         margin: 62px;        
         &_h1{
             display: flex;
-            color: rgb(231, 193, 48);
+            color: $colorperas_uno;
             
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: $fuenteperas_tres;
             font-size: 350%  ;
             margin: 120px;
             margin-bottom: 50px;
@@ -44,7 +43,7 @@
        &_grupo{
             display: flex;
             justify-content: space-around; 
-            margin: 10px;}
+            margin:$medida_gral;}
         &_img{
             padding: 5%;
             width: 250px;
@@ -62,7 +61,7 @@
             text-align: center;
             font-size: xx-large;
             color: rgb(255, 255, 255);
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: $fuenteperas_tres;
             font-size: 500%; }
     }
             

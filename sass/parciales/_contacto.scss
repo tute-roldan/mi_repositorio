@@ -3,7 +3,7 @@
     
     display: grid;
     grid-template-rows: auto 1fr auto;
-    gap: 10px ;
+    gap: $medida_gral;
 }
 
 .contacto{
@@ -16,24 +16,24 @@
         align-items: center;
         &_text{
             font-size: 20px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: rgb(231, 193, 48);
+            font-family: $fuenteperas_uno;
+            color: $colorperas_uno;
             font-style: oblique;
             margin: 31px;
             text-align: center;}
         &_contenedor{
-            border: solid rgb(231, 193, 48);
+            border: $colorperas_uno;
             width: 400px;
             font-size: x-large;
             background: repeating-linear-gradient(45deg, black, transparent 310px);
             text-align: center;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+            font-family: $fuenteperas_uno;}
         &_fieldset{
             border: none;
             background-color: none; }
         &_registrarme{
-            background-color:rgb(231, 193, 48);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+            background-color:$colorperas_uno;
+            font-family: $fuenteperas_uno; }
 
     
     }
