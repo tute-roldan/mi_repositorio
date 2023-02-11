@@ -31,7 +31,7 @@ a {
     padding-bottom: 2rem;
     font-size: 125%;
     list-style: none; }
-    .header__paginas__paginas_a {
+    .header__paginas_a {
       color: #2d2d2a;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       padding: 7px;
@@ -191,7 +191,7 @@ a {
       margin: 31px;
       text-align: center; }
     .contacto_form_contenedor {
-      border: #e7c130;
+      border-color: darkgrey;
       width: 400px;
       font-size: x-large;
       background: repeating-linear-gradient(45deg, black, transparent 310px);
