@@ -182,7 +182,8 @@ a {
     height: 800px;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    color: #e7c130; }
     .contacto_form_text {
       font-size: 20px;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
