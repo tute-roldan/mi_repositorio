@@ -284,7 +284,11 @@ a {
   .equipo_imagen {
     width: 500px;
     padding: 0px;
-    border-radius: 0px; } }
+    border-radius: 0px; }
+  .buzos_img {
+    width: 250px; }
+  .gorras_img {
+    width: 250px; } }
 
 /*.................................*/
 @media screen and (max-width: 425px) {
